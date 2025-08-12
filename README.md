@@ -59,3 +59,34 @@ Pour insérer les données, utilisez la commande suivante :
 
 ```bash
 node importData.js
+```
+
+# Ex 2 — Mathématiques et Programmation TypeScript
+
+## 📌 Objectifs
+Cet exercice se divise en deux parties :
+1. **Mathématiques** : Multiplier deux matrices.
+2. **Programmation** : Simuler une régression linéaire en TypeScript à partir d’un jeu de données généré aléatoirement.
+---
+Installer TypeScript :
+```bash
+npm install -g typescript
+```
+Compiler le fichier :
+```bash
+tsc fichier.ts
+```
+Exécuter avec Node.js :
+```bash
+node fichier.js
+```
+Exécuter avec Node.js :
+
+```bash
+Points: [
+  { "x": 1, "y": 4.12 },
+  { "x": 2, "y": 7.03 },
+  ...
+]
+Equation estimée: y = 2.01x + 2.89
+```
