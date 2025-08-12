@@ -1,0 +1,69 @@
+{
+  "userInfos": {
+    "userId_123": {
+      "name": "test",
+      "email": "test@email.com",
+      "diagnostics": {
+        "diagnosticId_001": {
+          "diagnosticPhotoUrl": "https://storage.googleapis.com/bucket/diag1.jpg",
+          "scores": {
+            "hydration": 85,
+            "elasticity": 60,
+            "pigmentation": 40,
+            "oiliness": 50,
+            "sensitivity": 30
+          },
+          "timestamp": "2025-08-11T14:25:00Z",
+          "recommendedProduct": {
+            "barcode": "1234567890123",
+            "productName": "Hydrating Cream"
+          }
+        },
+        "diagnosticId_002": {
+          "diagnosticPhotoUrl": "https://storage.googleapis.com/bucket/diag2.jpg",
+          "scores": {
+            "hydration": 75,
+            "elasticity": 55,
+            "pigmentation": 35,
+            "oiliness": 45,
+            "sensitivity": 25
+          },
+          "timestamp": "2025-08-12T09:10:00Z",
+          "recommendedProduct": {
+            "barcode": "9876543210987",
+            "productName": "Anti-aging Serum"
+          }
+        }
+      }
+    }
+  },
+  "proDiagnostics": {
+    "proUserId_456": {
+      "name": "Dr. Alice",
+      "clients": {
+        "clientId_001": {
+          "firstName": "Emma",
+          "lastName": "Smith",
+          "phone": "+212600000000",
+          "diagnostics": {
+            "diagnosticId_010": {
+              "diagnosticPhotoUrl": "https://storage.googleapis.com/bucket/client1_diag1.jpg",
+              "scores": {
+                "hydration": 65,
+                "elasticity": 70,
+                "pigmentation": 45,
+                "oiliness": 55,
+                "sensitivity": 40
+              },
+              "timestamp": "2025-08-11T10:00:00Z",
+              "recommendedProduct": {
+                "barcode": "1122334455667",
+                "productName": "SPF Moisturizer"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
